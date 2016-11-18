@@ -1,0 +1,49 @@
+<script src="main.js"></script>
+<style>
+
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#header button {
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	background: #ffa040;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#header button:hover {
+	background: #ffaf4f;
+}
+
+</style>
+
+<div id="header">
+	<button onClick="unfollow_all()">Unfollow all</button>
+</div>
